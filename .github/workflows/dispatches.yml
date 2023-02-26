@@ -85,7 +85,7 @@ jobs:
           source_branch: ${{ steps.sync.outputs.new_branch }}
           destination_branch: ${{ github.event.client_payload.data.branch }}
           
-          curl \
+        curl \
   -i -u USER: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 \
   -X POST \
   -H "Accept: application/vnd.github.v3+json" \
