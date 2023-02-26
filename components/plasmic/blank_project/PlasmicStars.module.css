@@ -1,0 +1,10 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transform: none;
+  overflow: visible;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  align-content: stretch;
+}
