@@ -232,6 +232,253 @@
           "cssFilePath": "plasmic/blank_project/PlasmicGlowOnHover.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "quowCRs39W",
+          "name": "HiLottie",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHiLottie.tsx",
+          "importSpec": {
+            "modulePath": "HiLottie.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHiLottie.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "iSdQAhTXGj",
+          "name": "PhoneMarketingMedia",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicPhoneMarketingMedia.tsx",
+          "importSpec": {
+            "modulePath": "PhoneMarketingMedia.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicPhoneMarketingMedia.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SjFMjCXtH-",
+          "name": "EyeDarkGreen",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicEyeDarkGreen.tsx",
+          "importSpec": {
+            "modulePath": "EyeDarkGreen.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicEyeDarkGreen.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Sbg8iX0ZHG",
+          "name": "AstronautComp",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautComp.tsx",
+          "importSpec": {
+            "modulePath": "AstronautComp.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautComp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tfnwE5lHTJ",
+          "name": "AstronautHi",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautHi.tsx",
+          "importSpec": {
+            "modulePath": "AstronautHi.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautHi.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "wjnBv6FSiu",
+          "name": "DevopsickHacher",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicDevopsickHacher.tsx",
+          "importSpec": {
+            "modulePath": "DevopsickHacher.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicDevopsickHacher.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "q1LHpL7oK2",
+          "name": "DevComp",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicDevComp.tsx",
+          "importSpec": {
+            "modulePath": "DevComp.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicDevComp.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ycBHt6bBw_",
+          "name": "Chat1",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicChat1.tsx",
+          "importSpec": {
+            "modulePath": "Chat1.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicChat1.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "YiHDkoum9K",
+          "name": "Cattyies",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicCattyies.tsx",
+          "importSpec": {
+            "modulePath": "Cattyies.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicCattyies.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "ftDF-3T8go",
+          "name": "HackerComputer",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicHackerComputer.tsx",
+          "importSpec": {
+            "modulePath": "HackerComputer.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicHackerComputer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "-d5pvlfrPq",
+          "name": "AstronautDj",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautDj.tsx",
+          "importSpec": {
+            "modulePath": "AstronautDj.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautDj.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "SA6xBXtnnv",
+          "name": "FreeConsultation",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicFreeConsultation.tsx",
+          "importSpec": {
+            "modulePath": "FreeConsultation.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicFreeConsultation.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "7MPNRYRFi2",
+          "name": "AstronautRocket",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautRocket.tsx",
+          "importSpec": {
+            "modulePath": "AstronautRocket.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautRocket.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "MqKkaxOA5f",
+          "name": "AstronautRocketjump",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautRocketjump.tsx",
+          "importSpec": {
+            "modulePath": "AstronautRocketjump.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautRocketjump.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NIUzFdABcW",
+          "name": "AstronautStar",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautStar.tsx",
+          "importSpec": {
+            "modulePath": "AstronautStar.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautStar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "k-ButyLKM_",
+          "name": "AstronautLove",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicAstronautLove.tsx",
+          "importSpec": {
+            "modulePath": "AstronautLove.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicAstronautLove.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rkckx3Pf-l",
+          "name": "UkrainianFlag",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicUkrainianFlag.tsx",
+          "importSpec": {
+            "modulePath": "UkrainianFlag.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicUkrainianFlag.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "VzDk-VkliN",
+          "name": "Privetuliki",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicPrivetuliki.tsx",
+          "importSpec": {
+            "modulePath": "Privetuliki.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicPrivetuliki.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "CyX4z3pBXS",
+          "name": "TextAwesome",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicTextAwesome.tsx",
+          "importSpec": {
+            "modulePath": "TextAwesome.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicTextAwesome.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -282,6 +529,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.223",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.223/dist/plasmic.schema.json"
+  "cliVersion": "0.1.224",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.224/dist/plasmic.schema.json"
 }

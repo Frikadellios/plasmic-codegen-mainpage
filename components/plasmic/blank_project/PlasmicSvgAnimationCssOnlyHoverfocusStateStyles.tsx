@@ -83,7 +83,6 @@ function PlasmicSvgAnimationCssOnlyHoverfocusStateStyles__RenderFunc(props: {
   variants: PlasmicSvgAnimationCssOnlyHoverfocusStateStyles__VariantsArgs;
   args: PlasmicSvgAnimationCssOnlyHoverfocusStateStyles__ArgsType;
   overrides: PlasmicSvgAnimationCssOnlyHoverfocusStateStyles__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -177,7 +176,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicSvgAnimationCssOnlyHoverfocusStateStyles__RenderFunc({
       variants,
       args,

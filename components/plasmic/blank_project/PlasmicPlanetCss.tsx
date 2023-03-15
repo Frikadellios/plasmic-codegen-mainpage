@@ -78,7 +78,6 @@ function PlasmicPlanetCss__RenderFunc(props: {
   variants: PlasmicPlanetCss__VariantsArgs;
   args: PlasmicPlanetCss__ArgsType;
   overrides: PlasmicPlanetCss__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -165,7 +164,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicPlanetCss__RenderFunc({
       variants,
       args,

@@ -78,7 +78,6 @@ function PlasmicContaizer__RenderFunc(props: {
   variants: PlasmicContaizer__VariantsArgs;
   args: PlasmicContaizer__ArgsType;
   overrides: PlasmicContaizer__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -167,7 +166,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicContaizer__RenderFunc({
       variants,
       args,

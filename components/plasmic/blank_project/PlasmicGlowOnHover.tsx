@@ -41,10 +41,16 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic_blank_project.module.css"; // plasmic-import: f6qpwMfQ9K36cBNMUgXnEq/projectcss
 import sty from "./PlasmicGlowOnHover.module.css"; // plasmic-import: 9B_FueXK-n/css
 
-export type PlasmicGlowOnHover__VariantMembers = {};
-export type PlasmicGlowOnHover__VariantsArgs = {};
+export type PlasmicGlowOnHover__VariantMembers = {
+  unnamedVariant: "unnamedVariant";
+};
+export type PlasmicGlowOnHover__VariantsArgs = {
+  unnamedVariant?: SingleBooleanChoiceArg<"unnamedVariant">;
+};
 type VariantPropType = keyof PlasmicGlowOnHover__VariantsArgs;
-export const PlasmicGlowOnHover__VariantProps = new Array<VariantPropType>();
+export const PlasmicGlowOnHover__VariantProps = new Array<VariantPropType>(
+  "unnamedVariant"
+);
 
 export type PlasmicGlowOnHover__ArgsType = {};
 type ArgPropType = keyof PlasmicGlowOnHover__ArgsType;
@@ -55,6 +61,7 @@ export type PlasmicGlowOnHover__OverridesType = {
 };
 
 export interface DefaultGlowOnHoverProps {
+  unnamedVariant?: SingleBooleanChoiceArg<"unnamedVariant">;
   className?: string;
 }
 
@@ -77,7 +84,6 @@ function PlasmicGlowOnHover__RenderFunc(props: {
   variants: PlasmicGlowOnHover__VariantsArgs;
   args: PlasmicGlowOnHover__ArgsType;
   overrides: PlasmicGlowOnHover__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -95,6 +101,20 @@ function PlasmicGlowOnHover__RenderFunc(props: {
 
   const currentUser = p.useCurrentUser?.() || {};
   const [$queries, setDollarQueries] = React.useState({});
+  const stateSpecs = React.useMemo(
+    () => [
+      {
+        path: "unnamedVariant",
+        type: "private",
+        variableType: "variant",
+        initFunc: true
+          ? ({ $props, $state, $queries, $ctx }) => $props.unnamedVariant
+          : undefined
+      }
+    ],
+    [$props, $ctx]
+  );
+  const $state = p.useDollarState(stateSpecs, { $props, $ctx, $queries });
 
   return (
     <div
@@ -164,7 +184,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicGlowOnHover__RenderFunc({
       variants,
       args,

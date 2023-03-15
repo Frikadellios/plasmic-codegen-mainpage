@@ -56,7 +56,7 @@
   > img {
   margin-top: 16px;
 }
-.lottie:global(.__wab_instance) {
+.lottie__j0U5G:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
   position: relative;
@@ -65,16 +65,19 @@
 .loader:global(.__wab_instance):global(.__wab_instance) {
   position: relative;
 }
-.h1 {
+.textAwesome:global(.__wab_instance) {
   position: relative;
-  width: 100%;
-  height: auto;
-  max-width: 800px;
-  margin-bottom: 32px;
-  text-align: center;
-  font-size: 64px;
-  padding-top: 36px;
-  min-width: 0;
+  margin-bottom: 46px;
+  height: 210px;
+  margin-top: calc(15px + 16px) !important;
+  margin-right: 0px;
+  margin-left: 0px;
+  flex-shrink: 0;
+}
+.button2:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  position: relative;
+  align-self: auto;
 }
 .text__flrHw {
   position: relative;
@@ -83,6 +86,18 @@
   max-width: 800px;
   text-align: center;
   min-width: 0;
+}
+.freeBox__sAcfD {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
 }
 .freeBox__gmhAg {
   display: flex;
@@ -201,44 +216,6 @@
     padding: 45px 14px 45px 11px;
   }
 }
-.gridColloumn {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  justify-content: flex-start;
-  align-items: center;
-  background: #2222224d;
-  mix-blend-mode: normal;
-  isolation: auto;
-  pointer-events: none;
-  min-height: 400px;
-  min-width: 400px;
-  box-shadow: 15px 15px 16px 0px #fa43ff4d;
-  border-radius: 8px;
-  padding: 8px;
-  border: 2px solid #222222;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .gridColloumn {
-    width: auto;
-    justify-content: flex-start;
-    align-items: center;
-    min-width: 300px;
-    min-height: 300px;
-  }
-}
-.glowOnHover:global(.__wab_instance) {
-  position: relative;
-}
-@media (min-width: 0px) and (max-width: 768px) {
-  .glowOnHover:global(.__wab_instance) {
-    min-width: 300px;
-    min-height: 300px;
-  }
-}
 .freeBox__wgUvz {
   display: flex;
   position: relative;
@@ -258,7 +235,15 @@
     min-height: 300px;
   }
 }
-.freeBox__sto68 {
+.h2__h94Z {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  min-width: 0;
+}
+.freeBox___5T9Uh {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -271,11 +256,73 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__sto68 {
+  .freeBox___5T9Uh {
     width: auto;
     min-width: 300px;
     min-height: 300px;
   }
+}
+.h2__oizFj {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  min-width: 0;
+}
+.freeBox__nT1RN {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__nT1RN {
+    width: auto;
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+.h2__gpVDs {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  min-width: 0;
+}
+.freeBox__yi4Da {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__yi4Da {
+    width: auto;
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+.h2___8Ntcm {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  text-align: center;
+  min-width: 0;
 }
 .freeBox__s39Y {
   display: flex;
@@ -318,7 +365,7 @@
     padding: 45px 14px 45px 11px;
   }
 }
-.gridColloumn2 {
+.freeBox___3MTap {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -331,13 +378,20 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .gridColloumn2 {
+  .freeBox___3MTap {
     width: auto;
-    justify-content: flex-start;
-    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
   }
 }
-.freeBox__xb5Cv {
+.text__gamgG {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.freeBox___3Z4K {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -350,11 +404,13 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__xb5Cv {
+  .freeBox___3Z4K {
     width: auto;
+    min-width: 300px;
+    min-height: 300px;
   }
 }
-.freeBox__vPwke {
+.freeBox__uv9Zz {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -367,11 +423,20 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__vPwke {
+  .freeBox__uv9Zz {
     width: auto;
+    min-width: 300px;
+    min-height: 300px;
   }
 }
-.freeBox__dKkS {
+.text__zxFld {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.freeBox__q6B0K {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -384,9 +449,18 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__dKkS {
+  .freeBox__q6B0K {
     width: auto;
+    min-width: 300px;
+    min-height: 300px;
   }
+}
+.text__uPQoI {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
 }
 .freeBox___6SrGd {
   display: flex;
@@ -446,11 +520,11 @@
   max-width: 3px;
   background: linear-gradient(
       0deg,
-      #ce9fff0d 0%,
-      #4c33ce99 29%,
-      #4f6fe6 54%,
-      #1a9b8999 75%,
-      #56b9ff0d 100%
+      #ce9fff0d 4%,
+      #29eb9099 29%,
+      #17308b 54%,
+      #17c12599 75%,
+      #56b9ff0d 94%
     )
     0% 0% / 100% 100% repeat;
   left: auto;
@@ -537,11 +611,12 @@
   max-width: 3px;
   background: linear-gradient(
       0deg,
-      #ce9fff0d 0%,
-      #4c33ce99 29%,
-      #4f6fe6 54%,
-      #1a9b8999 75%,
-      #56b9ff0d 100%
+      #ce9fff0d 6%,
+      #b5aff32e 11%,
+      #2ddbca99 29%,
+      #d91515 54%,
+      #4f0a9199 75%,
+      #56b9ff0d 91%
     )
     0% 0% / 100% 100% repeat;
   left: auto;
@@ -577,7 +652,7 @@
     padding: 45px 14px 45px 11px;
   }
 }
-.gridColloumn3 {
+.freeBox__gmpNu {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -590,13 +665,20 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .gridColloumn3 {
+  .freeBox__gmpNu {
     width: auto;
-    justify-content: flex-start;
-    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
   }
 }
-.freeBox__qws2X {
+.text__yrbp {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.freeBox__kjJq3 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -609,11 +691,20 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox__qws2X {
+  .freeBox__kjJq3 {
     width: auto;
+    min-width: 300px;
+    min-height: 300px;
   }
 }
-.freeBox___19CKl {
+.text___1GTpb {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.freeBox__wgkPw {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -626,11 +717,20 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox___19CKl {
+  .freeBox__wgkPw {
     width: auto;
+    min-width: 300px;
+    min-height: 300px;
   }
 }
-.freeBox___181Fx {
+.text__cYmYi {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.freeBox__lSon7 {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -643,7 +743,21 @@
   padding: 8px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
-  .freeBox___181Fx {
+  .freeBox__lSon7 {
     width: auto;
+    min-width: 300px;
+    min-height: 300px;
   }
+}
+.text___1Sh5K {
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 800px;
+  min-width: 0;
+}
+.lottie__urpCd:global(.__wab_instance) {
+  max-width: 100%;
+  object-fit: cover;
+  position: relative;
 }

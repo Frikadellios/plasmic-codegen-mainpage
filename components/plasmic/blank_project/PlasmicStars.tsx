@@ -91,7 +91,6 @@ function PlasmicStars__RenderFunc(props: {
   variants: PlasmicStars__VariantsArgs;
   args: PlasmicStars__ArgsType;
   overrides: PlasmicStars__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -189,7 +188,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicStars__RenderFunc({
       variants,
       args,

@@ -78,7 +78,6 @@ function PlasmicTittleColor__RenderFunc(props: {
   variants: PlasmicTittleColor__VariantsArgs;
   args: PlasmicTittleColor__ArgsType;
   overrides: PlasmicTittleColor__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -165,7 +164,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicTittleColor__RenderFunc({
       variants,
       args,

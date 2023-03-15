@@ -78,7 +78,6 @@ function PlasmicButton777__RenderFunc(props: {
   variants: PlasmicButton777__VariantsArgs;
   args: PlasmicButton777__ArgsType;
   overrides: PlasmicButton777__OverridesType;
-
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
@@ -165,7 +164,6 @@ function makeNodeComponent<NodeName extends NodeNameType>(nodeName: NodeName) {
         }),
       [props, nodeName]
     );
-
     return PlasmicButton777__RenderFunc({
       variants,
       args,
