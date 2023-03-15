@@ -466,19 +466,6 @@
           "cssFilePath": "plasmic/blank_project/PlasmicPrivetuliki.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "CyX4z3pBXS",
-          "name": "TextAwesome",
-          "type": "managed",
-          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
-          "renderModuleFilePath": "plasmic/blank_project/PlasmicTextAwesome.tsx",
-          "importSpec": {
-            "modulePath": "TextAwesome.tsx"
-          },
-          "cssFilePath": "plasmic/blank_project/PlasmicTextAwesome.module.css",
-          "scheme": "blackbox",
-          "componentType": "component"
         }
       ],
       "icons": [
