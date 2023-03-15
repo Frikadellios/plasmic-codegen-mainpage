@@ -9,9 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.0.4",
+    "@plasmicapp/cli": "^0.1.223",
     "@plasmicapp/host": "^1.0.107",
-    "@plasmicapp/react-web": "^0.2.160",
+    "@plasmicapp/react-web": "^0.2.168",
     "@plasmicpkgs/lottie-react": "^0.0.92",
     "@plasmicpkgs/plasmic-basic-components": "^0.0.116",
     "@plasmicpkgs/plasmic-embed-css": "^0.1.91",

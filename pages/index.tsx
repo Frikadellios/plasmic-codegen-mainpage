@@ -6,6 +6,10 @@ import GlobalContextsProvider from "../components/plasmic/blank_project/PlasmicG
 import { ScreenVariantProvider } from "../components/plasmic/blank_project/PlasmicGlobalVariant__Screen";
 import { PlasmicHomepage } from "../components/plasmic/blank_project/PlasmicHomepage";
 import { useRouter } from "next/router";
+import * as p from "@plasmicapp/react-web";
+
+
+
 
 function Homepage() {
   // Use PlasmicHomepage to render this component as it was

@@ -17,7 +17,7 @@ import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/router";
 
 import * as p from "@plasmicapp/react-web";
-import * as ph from "@plasmicapp/host";
+import * as ph from "@plasmicapp/react-web/lib/host";
 
 import {
   hasVariant,
@@ -67,6 +67,13 @@ const __wrapUserPromise =
     return await promise;
   });
 
+function useNextRouter() {
+  try {
+    return useRouter();
+  } catch {}
+  return undefined;
+}
+
 function PlasmicButton2__RenderFunc(props: {
   variants: PlasmicButton2__VariantsArgs;
   args: PlasmicButton2__ArgsType;
@@ -75,7 +82,7 @@ function PlasmicButton2__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
-  const __nextRouter = useRouter();
+  const __nextRouter = useNextRouter();
 
   const $ctx = ph.useDataEnv?.() || {};
   const args = React.useMemo(() => Object.assign({}, props.args), [props.args]);
@@ -88,7 +95,6 @@ function PlasmicButton2__RenderFunc(props: {
   const $refs = refsRef.current;
 
   const currentUser = p.useCurrentUser?.() || {};
-
   const [$queries, setDollarQueries] = React.useState({});
 
   return (
@@ -98,7 +104,13 @@ function PlasmicButton2__RenderFunc(props: {
         data-plasmic-override={overrides.root}
         data-plasmic-root={true}
         data-plasmic-for-node={forNode}
-        className={classNames("__wab_instance", sty.root)}
+        className={classNames(
+          "__wab_instance",
+          projectcss.root_reset,
+          projectcss.plasmic_default_styles,
+          projectcss.plasmic_mixins,
+          sty.root
+        )}
         code={
           "<button>\r\n  <span></span>\r\n  <span></span>\r\n  <span></span>\r\n  <span></span> Hover me\r\n</button>" as const
         }

@@ -180,6 +180,58 @@
           "cssFilePath": "plasmic/blank_project/PlasmicPlanetCss.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "2ar8vnE0Ie",
+          "name": "SvgAnimationCssOnlyHoverfocusStateStyles",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicSvgAnimationCssOnlyHoverfocusStateStyles.tsx",
+          "importSpec": {
+            "modulePath": "SvgAnimationCssOnlyHoverfocusStateStyles.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicSvgAnimationCssOnlyHoverfocusStateStyles.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "zr1InifaZt",
+          "name": "Button777",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicButton777.tsx",
+          "importSpec": {
+            "modulePath": "Button777.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicButton777.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "FYZrxOIUu5",
+          "name": "Contaizer",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicContaizer.tsx",
+          "importSpec": {
+            "modulePath": "Contaizer.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicContaizer.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "9B_FueXK-n",
+          "name": "GlowOnHover",
+          "type": "managed",
+          "projectId": "f6qpwMfQ9K36cBNMUgXnEq",
+          "renderModuleFilePath": "plasmic/blank_project/PlasmicGlowOnHover.tsx",
+          "importSpec": {
+            "modulePath": "GlowOnHover.tsx"
+          },
+          "cssFilePath": "plasmic/blank_project/PlasmicGlowOnHover.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
@@ -230,6 +282,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.215",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.215/dist/plasmic.schema.json"
+  "cliVersion": "0.1.221",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.221/dist/plasmic.schema.json"
 }

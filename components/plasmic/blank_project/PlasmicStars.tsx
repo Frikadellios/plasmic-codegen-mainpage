@@ -17,7 +17,7 @@ import Link, { LinkProps } from "next/link";
 import { useRouter } from "next/router";
 
 import * as p from "@plasmicapp/react-web";
-import * as ph from "@plasmicapp/host";
+import * as ph from "@plasmicapp/react-web/lib/host";
 
 import {
   hasVariant,
@@ -80,6 +80,13 @@ const __wrapUserPromise =
     return await promise;
   });
 
+function useNextRouter() {
+  try {
+    return useRouter();
+  } catch {}
+  return undefined;
+}
+
 function PlasmicStars__RenderFunc(props: {
   variants: PlasmicStars__VariantsArgs;
   args: PlasmicStars__ArgsType;
@@ -88,7 +95,7 @@ function PlasmicStars__RenderFunc(props: {
   forNode?: string;
 }) {
   const { variants, overrides, forNode } = props;
-  const __nextRouter = useRouter();
+  const __nextRouter = useNextRouter();
 
   const $ctx = ph.useDataEnv?.() || {};
   const args = React.useMemo(
@@ -113,7 +120,6 @@ function PlasmicStars__RenderFunc(props: {
   const $refs = refsRef.current;
 
   const currentUser = p.useCurrentUser?.() || {};
-
   const [$queries, setDollarQueries] = React.useState({});
 
   return (
